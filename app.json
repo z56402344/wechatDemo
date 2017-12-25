@@ -1,0 +1,35 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Android博客周刊",
+    "navigationBarTextStyle":"black",
+    "enablePullDownRefresh":"true"
+  },
+  "tabBar": {
+    "backgroundColor":"#88ff0011",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath":"image/ic_1.png",
+        "selectedIconPath":"image/ic_1_1.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "日志",
+        "iconPath":"image/ic_2.png",
+        "selectedIconPath":"image/ic_2_1.png"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}
